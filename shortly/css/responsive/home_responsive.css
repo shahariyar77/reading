@@ -1,0 +1,157 @@
+
+/* (1920x1080) Full HD Display */
+
+@media  screen and (max-width: 1920px) {}
+
+/* (1366x768) WXGA Display */
+@media  screen and (max-width: 1366px) {}
+/*---------------- iPads (portrait and landscape) ---------------------- */
+@media only screen and (min-device-width: 992px) and (max-device-width: 1200px) {
+  
+	.header-area li a {
+		margin: 0 12px;
+	}
+	.hero-area h2 {
+		font-size: 48px;
+	} 
+   
+ 
+} 
+    
+   
+/*------------------- iPads (portrait and landscape) -------------------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+	.logo img {
+		max-width: 100px;
+	}
+	.header-area li a {
+		font-size: 12px;
+		margin: 0 8px;
+	}  
+	.hero-area h2 {
+		font-size: 35px;
+	}
+	.hero-area p {
+		font-size: 12px;
+	}
+	.hero-area {
+		min-height: 350px;
+	}
+	.table-area input[type="text"] {
+		width: 65%;
+		margin-left: 45px;
+	}
+	.section-tittle p {
+		font-size: 12px;
+	}
+	.single-about-item {
+		padding-left: 23px;
+	}
+	.single-about-item h4 {
+		font-size: 19px;
+	}
+	.single-about-item p {
+		font-size: 12px;
+	}
+	.about-area {
+		padding-top: 137px;
+		padding-bottom: 70px;
+	}
+	.footer-area a {
+		font-size: 12px;
+	}
+	.social-links a {
+		font-size: 20px;
+		padding: 0 7px;
+	}
+    
+    
+}
+
+/*================= 320  mobile lay out   =======================*/
+@media only screen and (max-device-width: 767px) {
+	.header-bar {
+		display: block;
+		text-align: right;
+	}
+	
+.main-manu {
+	display: none;
+  }
+  .site-manu {
+	display: none;
+  }
+  .header-area {
+	position: relative;
+	z-index: 1;
+	padding: 20px 0;
+}
+.hero-img {
+	position: absolute;
+	left: 0;
+	top: 80px;
+	width: 100%;
+}
+.hero-area {
+	text-align: center;
+}
+.hero-area h2 {
+	margin-top: 285px;
+	font-size: 37px;
+}
+.bg-short {
+	padding: 20px;
+}
+.table-area input[type="text"] {
+	width: 100%;
+	margin-left: 0;
+	margin-bottom: 30px;
+}
+.table-area input[type="submit"] {
+	width: 100%;
+	margin-left: 0;
+}
+.section-tittle {
+	margin-bottom:50px;
+	padding: 0 2px;
+}
+.section-tittle h2 {
+	font-size: 23px;
+	margin-bottom: 10px;
+}
+.section-tittle p {
+	font-size: 12px;
+}
+.about-icon {
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
+	margin-bottom: 17px;
+	
+}
+.single-about-item.item-3 {
+	margin-top: 40px;
+}
+.cta-area h2 {
+	font-size: 23px;
+}
+.footer-area {
+	text-align: center;
+}
+.footer-area h4 {
+	margin-top: 50px;
+}
+.social-links {
+	margin-top: 50px;
+}
+.offcanvas-manu {
+	display: block;
+}
+.offcanvas-manu li a {
+	font-weight: 700;
+}
+        
+}
+/*=================   iPad  landscape  =======================*/
+
